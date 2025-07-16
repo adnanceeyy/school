@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EMEAHSS Kondotty Specia Care Center</title>
+<link rel="shortcut icon" href="logobg removed2025-07-08_111424-Pica-removebg-preview.png" type="image/x-icon">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#0D9488',secondary:'#2DD4BF'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+}
+.testimonial-section {
+background-color: #f9fafb;
+}
+.stat-card {
+background-color: rgba(255, 255, 255, 0.9);
+backdrop-filter: blur(5px);
+}
+
+/* Responsive Typography */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .text-4xl {
+    font-size: 2rem !important;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  footer .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .text-5xl {
+    font-size: 2.25rem !important;
+  }
+
+  .text-6xl {
+    font-size: 2.5rem !important;
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .px-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-text {
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .rounded-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  footer .grid {
+    grid-template-columns: 1fr;
+  }
+
+  footer .flex.space-x-6 {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  footer .border-t {
+    text-align: center;
+  }
+}
+</style>
+
+</head>
+<body class="bg-white">
+
+
+<!-- Header Navigation -->
+<header class="bg-primary text-white">
+  <div class="container mx-auto px-6 py-4">
+    <div class="flex justify-between items-center">
+      <!-- Logo Section -->
+      <div class="flex items-center">
+        <div class="w-auto px-3 h-10 flex items-center justify-center rounded-md mr-2">
+          <a href="https://www.facebook.com/emeahss/">
+            <div class="font-['Pacifico'] text-primary text-xl flex items-center whitespace-nowrap">
+            <img style="width: 50px; height: 45px; border-radius: 5px;" src="logobg removed2025-07-08_111424-Pica-removebg-preview.png" alt="">
+          </div></a>
+        </div>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button id="menuToggle" class="md:hidden text-white text-2xl focus:outline-none">
+        <i class="ri-menu-line"></i>
+      </button>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex ml-8 space-x-4">
+        <a href="service.html" class="px-4 py-2 hover:text-secondary transition"> <button>Our Services</button></a>
+        <a href="studentprofile.html" class="px-4 py-2 hover:text-secondary transition">Students Profile</a>
+        <a href="gallery.html" class="px-4 py-2 hover:text-secondary transition">Gallery</a>
+        <a href="teacher3.html" class="px-4 py-2 hover:text-secondary transition">Teacher</a>
+        <a href="#" class="px-4 py-2 hover:text-secondary transition">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Nav (hidden by default) -->
+    <nav id="mobileMenu" class="md:hidden mt-4 hidden flex-col space-y-2">
+      <a href="service.html" class="block px-4 py-2 bg-primary/90 hover:bg-secondary rounded">Our Services</a>
+      <a href="studentprofile.html" class="block px-4 py-2 bg-primary/90 hover:bg-secondary rounded">Students Profile</a>
+      <a href="gallery.html" class="block px-4 py-2 bg-primary/90 hover:bg-secondary rounded">Gallery</a>
+      <a href="teacher3.html" class="block px-4 py-2 bg-primary/90 hover:bg-secondary rounded">Teacher</a>
+      <a href="#" class="block px-4 py-2 bg-primary/90 hover:bg-secondary rounded">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative py-20 bg-primary">
+<div class="container mx-auto px-6 w-full">
+<div class="flex flex-col md:flex-row items-center">
+<div class="md:w-1/2 text-white">
+<h1 class="text-5xl md:text-6xl font-bold leading-[1.25em] mb-6">
+
+<div class="mt-4 text-4xl md:text-5xl leading-[2.5em]" style=" text-shadow: 2px 2px 4px #000000; font-size: 60px;"><span style="color: rgb(255, 247, 0);">EMEAHSS</span>  Kondotty<br>Special Care Center</div>
+</h1>
+
+<div class="flex items-center">
+<div class="flex items-center">
+<span class="text-sm"></span>
+</div>
+</div>
+</div>
+
+<div class="md:w-1/2 relative mt-12 md:mt-0">
+<!-- Overlapping images with stats -->
+<div class="relative">
+<!-- Main image -->
+<div class="rounded-lg overflow-hidden shadow-xl">
+<img src="ChatGPT Image Jul 8, 2025, 05_31_20 PM.png" alt="Business coaching" class="w-full h-auto object-cover">
+</div>
+</div>
+<!-- Stats cards -->
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="mt-20">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-6xl font-bold mb-2" style="font-weight: 800;">Our <span class="text-primary">  Teachers</span></h2>
+
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="testimonialGrid">
+<!-- Testimonial 1 -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+  <a href="sham.html">
+<img src="shamk-Pica.png" alt="Dr. Eli Coleman coaching session" class="w-full h-48 object-cover">
+<div class="p-5"><button>
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="shamk-Picaasd.png" class="w-full h-full object-cover">
+</div>
+<div>
+<h3 class="font-bold">K.Sham</h3>
+<p class="text-xs text-gray-500">Princepal</p>
+</div>
+</div></button>
+</div>
+</a>
+</div>
+
+<!-- Testimonial 2 -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden"><a href="ismail.html">
+<img src="ismail sir.png " alt="Alex Smith NextFit Lab session" class="w-full h-48 object-cover">
+<div class="p-5"><button>
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="ismail.JPG" class="w-full h-full object-cover">
+</div>
+<div>
+<h3 class="font-bold">Ismail PT</h3>
+<p class="text-xs text-gray-500">Head Master</p>
+</div>
+</div></button>
+</div>
+</a>
+</div>
+
+<!-- Testimonial 3 -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+  <a href="teacher3.html">
+<img src="Screenshot 2025-07-09 223638.png" class="w-full h-48 object-cover">
+<div class="p-5"><button>
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="rashid pasport.JPG" alt="Michael Chen" class="w-full h-full object-cover">
+</div>
+<div>
+<h3 class="font-bold">M.Rashid Pazheri</h3>
+<p class="text-xs text-gray-500">Department of Special Educator</p>
+</div>
+</div></button>
+</div>
+</a>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<!-- servicesection -->
+
+<section class="mt-20" style="padding-bottom: 80px;">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="testimonialGrid">
+<!-- Testimonial 1 -->
+ <a href="service.html">
+  <button>
+<img style="border-radius: 15px; height: 250px;" src="services.png" alt="Dr. Eli Coleman coaching session" class="w-full h-48 object-cover"></button></a>
+
+
+<!-- Testimonial 2 -->
+ <a href="studentprofile.html">
+ <button>
+<img style="border-radius: 15px; height: 250px;" src="students-prifile.png" alt="Dr. Eli Coleman coaching session" class="w-full h-48 object-cover"></button></a>
+
+<!-- Testimonial 3 -->
+ <a href="gallery.html">
+ <button>
+<img style="border-radius: 15px; height: 250px;" src="gallery.png" alt="Dr. Eli Coleman coaching session" class="w-full h-48 object-cover"></button></a>
+
+</div>
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-12">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div>
+<div class="flex items-center mb-4">
+<div style="padding-left: 50px; padding-top: 60px;" class="w-auto px-3 h-10 flex items-center justify-center rounded-md mr-2">
+<img style="height: 150px; width: 150px;" src="logobg removed2025-07-08_111424-Pica-removebg-preview.png" alt="">
+</div>
+
+</div>
+
+</div>
+
+<div>
+<h3 class="text-lg font-semibold mb-4">Teachers</h3>
+<ul class="space-y-2">
+<li><a href="sham.html" class="text-gray-400 hover:text-white transition">K.Sham</a></li>
+<li><a href="ismail.html" class="text-gray-400 hover:text-white transition">Ismail PT</a></li>
+<li><a href="teacher3.html" class="text-gray-400 hover:text-white transition">M.Rashid Pazheri</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Contact</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition">non</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">non</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">+91 9947941701</a></li>
+
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Review</h3>
+<p class="text-gray-400 mb-4">Enter your review for this site.</p>
+<div class="flex">
+<input type="text" placeholder="Your Review " class="bg-gray-800 text-white px-4 py-2 rounded-l-button border-none focus:outline-none w-full">
+<button class="bg-primary text-white px-4 py-2 rounded-r-button whitespace-nowrap">
+Submit
+</button>
+</div>
+</div>
+
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">
+© creator is Adnan Cholayil , 10/07/2025 Kerala,India
+</p>
+<div class="flex space-x-6">
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Privacy Policy</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Terms of Service</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Cookie Policy</a>
+</div>
+</div>
+
+</div>
+</footer>
+</body>
+</html>
